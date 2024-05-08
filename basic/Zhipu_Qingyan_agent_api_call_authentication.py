@@ -1,28 +1,28 @@
 import requests
 
-# 填入你的api_key和api_secret
-api_key = "YOUR_API_KEY"
-api_secret = "YOUR_API_SECRET"
+def get_token(api_key, api_secret):
+    url = "https://chatglm.cn/chatglm/assistant-api/v1/get_token"
+    payload = {
+        'api_key': api_key,
+        'api_secret': api_secret
+    }
+    response = requests.post(url, json=payload)
+    print(response.text)  # 打印返回结果
+    if response.status_code == 200:
+        data = response.json()
+        access_token = data['access_token']
+        expires_in = data['expires_in']
+        return access_token, expires_in
+    else:
+        print(f"获取access token失败，状态码：{response.status_code}")
+        return None, None
 
-# 构造请求数据
-data = {
-    "api_key": api_key,
-    "api_secret": api_secret
-}
+# 使用示例
+api_key = '你的api_key'
+api_secret = '你的api_secret'
+access_token, expires_in = get_token(api_key, api_secret)
 
-# 发送POST请求
-url = "https://chatglm.cn/chatglm/assistant-api/v1/get_token"
-response = requests.post(url, data=data)
-
-# 检查响应状态码
-if response.status_code == 200:
-    # 请求成功，获取access_token和expires_in
-    result = response.json()
-    access_token = result["access_token"]
-    expires_in = result["expires_in"]
-    print(f"Access Token: {access_token}")
-    print(f"Expires In: {expires_in} seconds")
-else:
-    # 请求失败，打印错误信息
-    print(f"Error: {response.status_code} - {response.text}")
+if access_token:
+    print(f"获取成功，access_token: {access_token}")
+    print(f"过期时间：{expires_in}秒")
 
