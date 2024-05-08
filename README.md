@@ -35,8 +35,8 @@ https://chatglm.cn/developersPanel/apiSet
 
 ![alt text](asset/2.PNG)
 
-根据使用文档的定义，编写的脚本如下：
+根据使用文档的定义，我编写了一个用于Access Token获取的脚本。
 
-[Zhipu_Qingyan_agent_api_call_authentication.py](basic/Zhipu_Qingyan_agent_api_call_authentication.py)
+[Access Token获取](basic/Zhipu_Qingyan_agent_api_call_authentication.py)
 
 
