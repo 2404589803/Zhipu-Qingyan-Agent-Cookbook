@@ -19,7 +19,9 @@
 
 与ChatGLM的api调用有一定的相似之处，首先，在鉴权之前，我们先需要获取Access Token。
 
-第一步，打开https://chatglm.cn/developersPanel/apiSet，找到智能体API管理界面。
+第一步，打开https://chatglm.cn/developersPanel/apiSet
+
+找到智能体API管理界面
 
 界面如下：
 
