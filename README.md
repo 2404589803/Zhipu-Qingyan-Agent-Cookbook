@@ -39,4 +39,10 @@ https://chatglm.cn/developersPanel/apiSet
 
 [Access Token获取](basic/Zhipu_Qingyan_agent_api_call_authentication.py)
 
+脚本运行完成之后，得到的信息如下：
+
+```json
+
+{"message":"success","result":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxNTE3NDQ4NCwianRpIjoiMGI5NWY2NDAtY2Y0OS00OTJkLTkyNjAtYjFhZWY1OTlmODEzIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6IkFQSV82NDZkZDhhMTEyNTlhMmYwZjI2NjEzM2FfY2M4OWQ4OGQiLCJuYmYiOjE3MTUxNzQ0ODQsImV4cCI6MTcxNjAzODQ4NCwidWlkIjoiNjYzYWVkOTUwNzQ5NWFkMTA4ODg3ODFhIiwidXBsYXRmb3JtIjoiIiwicm9sZXMiOlsiYXV0aGVkX3VzZXIiXX0.Y3F2HUAh2AdmfINuVHsRxt21x8xXrRKyR1nNQDQG23k","expires_in":864000,"token_expires":1716038484},"status":0}
+```
 
