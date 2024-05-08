@@ -29,16 +29,16 @@ https://chatglm.cn/developersPanel/apiSet
 
 界面如下：
 
-![alt text](1280X1280.PNG)
+![alt text](asset/1280X1280.PNG)
 
 然后点击新建，再输入名称。
 
 最后新建的结果如下图：
 
-![alt text](2.PNG)
+![alt text](asset/2.PNG)
 
 根据使用文档的定义，编写的脚本如下：
 
-Zhipu_Qingyan_agent_api_call_authentication.py
+[Zhipu_Qingyan_agent_api_call_authentication.py](basic/Zhipu_Qingyan_agent_api_call_authentication.py)
 
 
