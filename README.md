@@ -17,9 +17,13 @@
 
 ### 获取access_token
 
-与ChatGLM的api调用有一定的相似之处，首先，在鉴权之前，我们先需要获取Access Token。
+与ChatGLM的api调用有一定的相似之处。
 
-第一步，打开https://chatglm.cn/developersPanel/apiSet
+首先，在鉴权之前，我们先需要获取Access Token。
+
+第一步，打开以下网址：
+
+https://chatglm.cn/developersPanel/apiSet
 
 找到智能体API管理界面
 
@@ -35,6 +39,6 @@
 
 根据使用文档的定义，编写的脚本如下：
 
-
+Zhipu_Qingyan_agent_api_call_authentication.py
 
 
