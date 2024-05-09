@@ -33,7 +33,7 @@ https://chatglm.cn/developersPanel/apiSet
 
 最后新建的结果如下图：
 
-![alt text](asset/2.jpg)
+![alt text](asset/2.png)
 
 根据使用文档的定义，我编写了一个用于Access Token获取的脚本。
 
