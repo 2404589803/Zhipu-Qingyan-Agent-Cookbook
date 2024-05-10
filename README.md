@@ -61,9 +61,7 @@ https://chatglm.cn/developersPanel/apiSet
 
 同时为了输出的美观，我也使用了SSE（流式）输出。代码如下：
 
-
 [智谱清言智能体api调用](basic/Zhipu_Qingyan_agent_api_assistant_session_call.py)
-
 
 在实际开发中，我们需要修改ssistant_id（智能体ID，更换智能体时修改）、access_token（填入你第一步获取到的access_token）、prompt（提示词）这三个参数。
 
@@ -79,8 +77,6 @@ https://chatglm.cn/developersPanel/apiSet
 
 ## 智谱清言智能体＋各平台bot
 
-当智能体调用完成之后，我们是不是觉得单单使用智能体单个的功能，还不足呢？想最大化发挥智能体的所有功能。现在。我以**智谱清言智能体＋各平台bot**的方式，对智能体api进行初步的应用实践。
+当智能体调用完成之后，我们是不是觉得单单使用智能体单个的功能，还不足呢？想最大化发挥智能体的所有功能。现在,我以**智谱清言智能体＋各平台bot**的方式，对智能体api进行初步的应用实践。
 
 ### Zhipu-Qingyan-Agent-wechat-bot（清言智能体＋微信bot）
-
-
