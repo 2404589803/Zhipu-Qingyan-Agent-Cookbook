@@ -10,7 +10,7 @@ def get_token(api_key, api_secret):
     print(response.text)  # 打印返回结果
 
 # 使用示例
-api_key = '51d5350a075931c7'
-api_secret = 'fa2eab916c0705fd6b120434ddd98e96'
+api_key = '8f56297340d49c41'
+api_secret = '7b835faace25445957facc440a012bd4'
 access_token, expires_in = get_token(api_key, api_secret)
 
